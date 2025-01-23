@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloy Lozano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/LogoWhite.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body data-bs-theme="dark">
+    <header class="bg-dark text-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <img src="./img/LogoWhite.png" alt="Logo Eloy Lozano" height="30px" class="pxl-2">
+                <a class="navbar-brand fw-bold ms-3" href="#">Eloy Lozano</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    <a href="./cv/EloyLozano2025.pdf" class="btn btn-outline-primary ms-3" download>Descargar CV</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container" id="about">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h1>Eloy Lozano</h1>
+                <p class="text-muted py-4">
+                    Mi curiosidad por la tecnología se complementa con mi amor por la fotografía, lo que me permite
+                    aportar un enfoque creativo y detallista a mis proyectos.
+                    Cuando no estoy codificando, estoy explorando el mundo a través de mi cámara, capturando momentos y
+                    paisajes que inspiran mis diseños.
+                </p>
+                <div class="mb-3">
+                    <p class="mb-1">
+                        <i class="fas fa-map-marker-alt me-2"></i>Santiago de Compostela
+                    </p>
+                    <p class="text-success">
+                        <i class="fas fa-circle me-2"></i>Open to work
+                    </p>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/eloylozano" target="_blank" class="text-decoration-none me-3">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-end">
+                <img src="./img/fotoPerfil.jpg" alt="Profile" class="rounded-3 shadow" style="width: 400px;">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-3 bg-dark rounded-3" id="habilidades">
+        <div class="container">
+            <h2 class="text-center mb-4 ">Habilidades y tecnologías</h2>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-react fa-2x text-primary"></i>
+                    <p>React</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-leaf fa-2x text-success"></i>
+                    <p>Spring</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-java fa-2x text-danger"></i>
+                    <p>Java</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-js-square fa-2x text-warning"></i>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-figma fa-2x text-white"></i>
+                    <p>Figma</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-git-alt fa-2x text-danger"></i>
+                    <p>Git</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-database fa-2x text-primary"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="./img/photoshopLogo.png" alt="Logo Photoshop" height="35px" class="">
+                    <p>Photoshop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container py-5" id="proyectos">
+        <h2 class="text-center mb-4">Proyectos Personales</h2>
+        <div class="proyectos-container d-flex justify-content-center gap-5">
+            <a href="https://github.com/eloylozano/deskify" target="_blank" class="text-light">
+                <div class="card">
+                    <img src="./img/deskify.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">deskify</h5>
+                        <p class="card-text">Proyecto Final de Ciclo</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://danisanchezdev.github.io/P5_Podcast/html/index.html" target="_blank">
+                <div class="card">
+                    <img src="./img/AppFluence.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">AppFluence</h5>
+                        <p class="card-text">Web del podcast AppFluence.</p>
+                        <p>ft: <a href="https://github.com/DaniSanchezDev"
+                                class="text-decoration-underline">@DaniSanchezDev</a></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/eloylozano/ConcesionarioVehiculos" target="_blank">
+                <div class="card">
+                    <img src="./img/hondamotorsport.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda Motorsport</h5>
+                        <p class="card-text">Concesionario Online Honda</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/eloylozano/CafeParaDos" target=" _blank">
+                <div class="card">
+                    <img src="./img/CafeParaDos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cafe para Dos</h5>
+                        <p class="card-text">Web de mi podcast Café para Dos</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="container py-5" id="experiencia">
+        <h2 class="text-center mb-4">Experiencia</h2>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <p class="text-muted mb-1">Junio 2024 – Agosto 2024</p>
+                <p class="text-muted">Julio 2023 – Septiembre 2023</p>
+                <h5 class="card-title">Audasa, Santiago de Compostela</h5>
+                <h6 class="fw-bold">Peajista</h6>
+                <ul>
+                    <li>Manejo de divisas</li>
+                    <li>Control de caja</li>
+                    <li>Atención al cliente</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <p class="text-muted mb-1">Junio 2023 – Septiembre 2023</p>
+                <h5 class="card-title">Bambú Producciones, Santiago de Compostela</h5>
+                <h6 class="fw-bold">Ayudante de producción</h6>
+                <p>Ayudante de producción para la serie de Netflix: “El Caso Asunta”</p>
+                <ul>
+                    <li>Tareas de organización</li>
+                    <li>Control de espacios públicos</li>
+                    <li>Preparación del escenario</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <p class="text-muted mb-1">Marzo 2023 – Junio 2023</p>
+                <h5 class="card-title">Infonet | cloud.gal, Santiago de Compostela</h5>
+                <h6 class="fw-bold">Técnico Soporte N1</h6>
+                <ul>
+                    <li>Atención y soporte al cliente por escritorio remoto</li>
+                    <li>Gestión de recursos con NextCloud</li>
+                    <li>Resolución de incidencias con Freshdesk</li>
+                    <li>Creación de informes y dashboards en PowerBi</li>
+                    <li>Kit Digital</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-dark rounded-3" id="contacto">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Texto de contacto -->
+                <div class="col-md-6">
+                    <h2 class="mb-4">Contacto</h2>
+                    <p>Escríbeme a <a href="mailto:lozanobarrioseloy@gmail.com"
+                            class="text-decoration-none">lozanobarrioseloy@gmail.com</a>
+                        o encuéntrame en <a href="https://www.linkedin/in/eloylozano.com/"
+                            class="text-decoration-none">LinkedIn</a>.
+                        ¡Estoy listo para colaborar contigo!</p>
+                </div>
+                <div class="col-md-6">
+                    <form method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Mensaje</label>
+                            <textarea name="message" id="text-area" class="form-control"
+                                placeholder="Escribe tu mensaje..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn w-100" id="button-form">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white text-center py-4">
+        <p>&copy; 2025 Eloy Lozano - Todos los derechos reservados</p>
+        <div>
+
+            <a href="https://www.linkedin.com/in/eloylozano" target="_blank" class="text-decoration-none me-3">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
