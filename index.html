@@ -123,94 +123,137 @@
 
     <section class="container py-5" id="proyectos">
         <h2 class="text-center mb-4">Proyectos Personales</h2>
-        <div class="proyectos-container d-flex justify-content-center gap-5">
-            <a href="https://github.com/eloylozano/deskify" target="_blank" class="text-light">
-                <div class="card">
-                    <img src="./img/deskify.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">deskify</h5>
-                        <p class="card-text">Proyecto Final de Ciclo</p>
-                    </div>
+        <div id="proyectosCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://github.com/eloylozano/deskify" target="_blank" class="text-light">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="./img/deskify.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Deskify</h5>
+                                <p class="card-text">Proyecto Final de Ciclo</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="https://danisanchezdev.github.io/P5_Podcast/html/index.html" target="_blank">
-                <div class="card">
-                    <img src="./img/AppFluence.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">AppFluence</h5>
-                        <p class="card-text">Web del podcast AppFluence.</p>
-                        <p>ft: <a href="https://github.com/DaniSanchezDev"
-                                class="text-decoration-underline">@DaniSanchezDev</a></p>
-                    </div>
+                <div class="carousel-item">
+                    <a href="https://danisanchezdev.github.io/P5_Podcast/html/index.html" target="_blank">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="./img/AppFluence.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">AppFluence</h5>
+                                <p class="card-text">Web del podcast AppFluence.</p>
+                                <p>ft: <a href="https://github.com/DaniSanchezDev"
+                                        class="text-decoration-underline">@DaniSanchezDev</a></p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="https://github.com/eloylozano/ConcesionarioVehiculos" target="_blank">
-                <div class="card">
-                    <img src="./img/hondamotorsport.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Honda Motorsport</h5>
-                        <p class="card-text">Concesionario Online Honda</p>
-                    </div>
+                <div class="carousel-item">
+                    <a href="https://github.com/eloylozano/ConcesionarioVehiculos" target="_blank">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="./img/hondamotorsport.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Honda Motorsport</h5>
+                                <p class="card-text">Concesionario Online Honda</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="https://github.com/eloylozano/CafeParaDos" target=" _blank">
-                <div class="card">
-                    <img src="./img/CafeParaDos.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Cafe para Dos</h5>
-                        <p class="card-text">Web de mi podcast Café para Dos</p>
-                    </div>
+                <div class="carousel-item">
+                    <a href="https://github.com/eloylozano/CafeParaDos" target="_blank">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="./img/CafeParaDos.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Café para Dos</h5>
+                                <p class="card-text">Web de mi podcast Café para Dos</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
+            </div>
+            <!-- Controles del carousel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#proyectosCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#proyectosCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
     </section>
 
     <section class="container py-5" id="experiencia">
         <h2 class="text-center mb-4">Experiencia</h2>
-
+    
         <div class="card mb-3">
-            <div class="card-body">
-                <p class="text-muted mb-1">Junio 2024 – Agosto 2024</p>
-                <p class="text-muted">Julio 2023 – Septiembre 2023</p>
-                <h5 class="card-title">Audasa, Santiago de Compostela</h5>
-                <h6 class="fw-bold">Peajista</h6>
-                <ul>
-                    <li>Manejo de divisas</li>
-                    <li>Control de caja</li>
-                    <li>Atención al cliente</li>
-                </ul>
+            <div class="row g-0 align-items-center">
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <p class="text-muted mb-1">Junio 2024 – Agosto 2024</p>
+                        <p class="text-muted">Julio 2023 – Septiembre 2023</p>
+                        <h5 class="card-title">Audasa, Santiago de Compostela</h5>
+                        <h6 class="fw-bold">Peajista</h6>
+                        <ul>
+                            <li>Manejo de divisas</li>
+                            <li>Control de caja</li>
+                            <li>Atención al cliente</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./img/audasa.png" alt="Logo Audasa" class="img-fluid rounded" style="height: 200px;">
+                </div>
             </div>
         </div>
-
+    
         <div class="card mb-3">
-            <div class="card-body">
-                <p class="text-muted mb-1">Junio 2023 – Septiembre 2023</p>
-                <h5 class="card-title">Bambú Producciones, Santiago de Compostela</h5>
-                <h6 class="fw-bold">Ayudante de producción</h6>
-                <p>Ayudante de producción para la serie de Netflix: “El Caso Asunta”</p>
-                <ul>
-                    <li>Tareas de organización</li>
-                    <li>Control de espacios públicos</li>
-                    <li>Preparación del escenario</li>
-                </ul>
+            <div class="row g-0 align-items-center">
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <p class="text-muted mb-1">Junio 2023 – Septiembre 2023</p>
+                        <h5 class="card-title">Bambú Producciones, Santiago de Compostela</h5>
+                        <h6 class="fw-bold">Ayudante de producción</h6>
+                        <p>Ayudante de producción para la serie de Netflix: “El Caso Asunta”</p>
+                        <ul>
+                            <li>Tareas de organización</li>
+                            <li>Control de espacios públicos</li>
+                            <li>Preparación del escenario</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./img/bambu.png" alt="Logo Bambú Producciones" class="img-fluid rounded" style="height: 200px;">
+                </div>
             </div>
         </div>
-
+    
         <div class="card mb-3">
-            <div class="card-body">
-                <p class="text-muted mb-1">Marzo 2023 – Junio 2023</p>
-                <h5 class="card-title">Infonet | cloud.gal, Santiago de Compostela</h5>
-                <h6 class="fw-bold">Técnico Soporte N1</h6>
-                <ul>
-                    <li>Atención y soporte al cliente por escritorio remoto</li>
-                    <li>Gestión de recursos con NextCloud</li>
-                    <li>Resolución de incidencias con Freshdesk</li>
-                    <li>Creación de informes y dashboards en PowerBi</li>
-                    <li>Kit Digital</li>
-                </ul>
+            <div class="row g-0 align-items-center">
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <p class="text-muted mb-1">Marzo 2023 – Junio 2023</p>
+                        <h5 class="card-title">Infonet | cloud.gal, Santiago de Compostela</h5>
+                        <h6 class="fw-bold">Técnico Soporte N1</h6>
+                        <ul>
+                            <li>Atención y soporte al cliente por escritorio remoto</li>
+                            <li>Gestión de recursos con NextCloud</li>
+                            <li>Resolución de incidencias con Freshdesk</li>
+                            <li>Creación de informes y dashboards en PowerBi</li>
+                            <li>Kit Digital</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./img/infonet.png" alt="Logo Infonet" class="img-fluid rounded" style="   height: 200px;">
+                </div>
             </div>
         </div>
     </section>
+    
 
     <section class="py-5 bg-dark rounded-3" id="contacto">
         <div class="container">
@@ -260,6 +303,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
