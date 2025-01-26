@@ -9,22 +9,19 @@ body {
 
 a {
     color: #7A7E83;
+    text-decoration: none;
 }
 
 nav {
     background-color: #161616;
 }
 
-.download{
-    background-color: #383838;
-    color: #7A7E83;
-    border: 1px solid #7A7E83;
+.download {
+    text-align: center;
 }
 
-.download:hover{
-    background-color: #7A7E83;
-    color: white;
-    border: 1px solid #fff;
+.foto-container img {
+    width: 100%;
 }
 
 #habilidades {
@@ -57,6 +54,10 @@ nav {
     height: 300px;
 }
 
+#contacto a {
+    text-decoration: underline;
+}
+
 #contacto {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
@@ -69,8 +70,6 @@ textarea {
     resize: none;
     height: 300px;
 }
-
-
 
 #button-form {
     background-color: #2b2b2b;
@@ -85,4 +84,8 @@ textarea {
 
 footer {
     background-color: #0e0e0e;
+}
+
+@media (max-width: 780px){
+    
 }
