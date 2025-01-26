@@ -86,6 +86,45 @@ footer {
     background-color: #0e0e0e;
 }
 
-@media (max-width: 780px){
+@media (max-width: 780px) {
+
+    #about {
+        padding: 0px 0px 50px 0px;
+    }
+
+    #about>div {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        ;
+    }
+
+    .skill {
+        width: max-content;
+    }
+
+    .img-fluid{
+        height: 100%;
+    }
+
+    .job {
+        padding-bottom: 25px;
+    }
+
     
+}
+
+@media (max-width: 500px) {
+
+    main {
+        padding: 10px;
+    }
+
+    .skill {
+        width: max-content;
+    }
+
+    .job {
+        padding-bottom: 25px;
+    }
 }
