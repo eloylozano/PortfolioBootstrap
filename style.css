@@ -120,7 +120,7 @@ textarea {
     height: 300px;
 }
 
-button {
+.form-btn {
     cursor: pointer;
     font-weight: 700;
     transition: all 0.2s;
@@ -133,26 +133,26 @@ button {
     font-size: 15px;
 }
 
-button:hover {
+.form-btn:hover {
     background: rgba(150, 115, 36, 1);
 }
 
-button>svg {
+.form-btn>svg {
     width: 34px;
     margin-left: 5px;
     transition: transform 0.3s ease-in-out;
 }
 
-button:hover svg {
+.form-btn:hover svg {
     transform: translateX(5px);
 }
 
-button:active {
+.form-btn:active {
     transform: scale(0.95);
 }
 
 
-footer {
+.form-btn {
     background-color: #0e0e0e;
 }
 
