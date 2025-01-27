@@ -233,10 +233,18 @@ footer>p {
         padding: 15px;
     }
 
-    .slider-box {
-        height: auto !important;
+    .slider-box .img-fluid {
+        height: 100%;
+        /* Fuerza que la imagen ocupe todo el alto */
+        object-fit: cover;
+        /* Asegura que la imagen se recorte correctamente */
     }
 
+    .slider-box .row.g-0 {
+        height: 15rem;
+        /* Asegura que el contenedor tenga una altura fija */
+    }
+    
     .slider-box img {
         object-fit: contain;
         /* Para que la imagen no se corte */
