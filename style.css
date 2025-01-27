@@ -17,8 +17,61 @@ nav {
 }
 
 .download {
+    position: relative;
+    overflow: hidden;
+    height: 2rem;
+    margin-left: 25px;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    background: #353227;
+    background-size: 400%;
     text-align: center;
+    border: none;
+    cursor: pointer;
 }
+
+.download a {
+    color: #fff;
+}
+
+
+.download:hover::before {
+    transform: scaleX(1);
+}
+
+.download-content {
+    position: relative;
+    z-index: 1;
+}
+
+.download::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg,
+            rgba(218, 160, 50, 1) 10.8%,
+            rgba(150, 115, 36, 1) 94.3%);
+    transition: all 0.475s;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 800;
+    width: fit-content;
+    background: linear-gradient(82.3deg,
+            rgba(218, 160, 50, 1) 10.8%,
+            rgb(150, 115, 33) 94.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 
 .foto-container img {
     width: 100%;
@@ -29,10 +82,6 @@ nav {
     backdrop-filter: blur(30px);
     color: #fff;
     padding: 20px;
-}
-
-.button-blue:hover {
-    background-color: #6EA8FE;
 }
 
 #about {
@@ -71,15 +120,36 @@ textarea {
     height: 300px;
 }
 
-#button-form {
-    background-color: #2b2b2b;
+button {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+    padding: 5px 10px 5px 15px;
+    border-radius: 100px;
+    background: rgba(218, 160, 50, 1);
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
 }
 
-#button-form:hover {
-    background-color: #383838;
-    transition: 0.2s linear;
+button:hover {
+    background: rgba(150, 115, 36, 1);
 }
 
+button>svg {
+    width: 34px;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover svg {
+    transform: translateX(5px);
+}
+
+button:active {
+    transform: scale(0.95);
+}
 
 
 footer {
@@ -123,28 +193,22 @@ footer {
 
     #proyectosCarousel .card {
         width: 100%;
-        /* La tarjeta ocupará el 100% del ancho disponible */
         height: auto;
-        /* Ajusta automáticamente la altura */
     }
 
     #proyectosCarousel .slider-box {
         flex-direction: column;
-        /* Cambia el diseño a vertical en lugar de horizontal */
     }
 
     #proyectosCarousel .col-md-6 {
         flex: 0 0 100%;
-        /* Cada columna ocupa el 100% del ancho */
         max-width: 100%;
     }
 
     #proyectosCarousel img {
         object-fit: cover;
         width: 100%;
-        /* La imagen ocupará el ancho completo */
         height: auto;
-        /* La altura se ajustará automáticamente */
     }
 }
 
