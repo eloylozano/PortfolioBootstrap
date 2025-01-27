@@ -120,6 +120,12 @@ h1 {
     margin-bottom: 75px;
 }
 
+
+#contacto img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 .form-control{
     background-color: #161616;
 }
@@ -136,7 +142,7 @@ textarea {
     transition: all 0.2s;
     padding: 5px 10px 5px 15px;
     border-radius: 100px;
-    background: rgba(218, 160, 50, 1);
+    background: #daa032;
     border: 1px solid transparent;
     display: flex;
     align-items: center;
