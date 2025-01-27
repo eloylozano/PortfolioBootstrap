@@ -225,6 +225,10 @@ footer > p{
         width: 100%;
         height: auto;
     }
+
+    .download{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 500px) {
