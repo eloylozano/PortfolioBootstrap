@@ -121,12 +121,12 @@ h1 {
 }
 
 
-#contacto img{
+#contacto img {
     width: 100%;
     border-radius: 10px;
 }
 
-.form-control{
+.form-control {
     background-color: #161616;
 }
 
@@ -167,7 +167,7 @@ textarea {
     transform: scale(0.95);
 }
 
-footer > p{
+footer>p {
     margin: 10px 0 0 0;
 }
 
@@ -198,11 +198,7 @@ footer > p{
         width: max-content;
     }
 
-    .img-fluid {
-        height: 100%;
-    }
-
-    .job {
+    .slider-box .job {
         padding-bottom: 25px;
     }
 
@@ -226,15 +222,26 @@ footer > p{
         height: auto;
     }
 
-    .download{
+    .download {
         margin-left: 0;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
 
     main {
         padding: 15px;
+    }
+
+    .slider-box {
+        height: auto !important;
+    }
+
+    .slider-box img {
+        object-fit: contain;
+        /* Para que la imagen no se corte */
+        height: auto;
+        /* Ajusta la altura en pantallas pequeñas */
     }
 
     .skill {
