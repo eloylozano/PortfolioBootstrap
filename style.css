@@ -225,6 +225,11 @@ footer>p {
     .download {
         margin-left: 0;
     }
+
+    .career-timeline img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 580px) {
