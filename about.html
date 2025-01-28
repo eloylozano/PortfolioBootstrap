@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloy Lozano · Sobre mí</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/LogoWhite.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body data-bs-theme="dark">
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="welcomeModalLabel">Bienvenido a mi portfolio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    ¡Bienvenido a mi portfolio! Me alegra que estés aquí.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="text-light">
+        <nav class="navbar navbar-expand-lg shadow-sm">
+            <div class="container">
+                <img src="./img/LogoWhite.png" alt="Logo Eloy Lozano" height="30px" class="pxl-2">
+                <a class="navbar-brand fw-bold ms-3" href="/index.html">Eloy Lozano</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <button type="submit" class="btn download" id="button-form">
+                        <a href="./cv/EloyLozano2025.pdf" class="download-content" download>Descargar CV</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="container" id="about">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>¿Quién soy?</h1>
+                    <p class="text-muted py-4 description">
+                        Soy un chico de 22 años, apasionado desde pequeño de la tecnología, los ordenadores y los Lego.
+                        Desde pequeño, siempre me ha gustado montar y desmontar cosas, como en los Lego, maquetas o
+                        aparatos tecnológicos, lo cual me ha llevado a descubrir una similitud en la programación, donde
+                        también se trata de crear y modificar bloques para hacer que todo funcione.
+                        <br> <br>
+                        Otra de mis grandes pasiones es la fotografía, una forma de desconexión de la programación,
+                        aunque no se queda lejos de esta, ya que disfruto mucho editando y haciendo fotomontajes. Esto
+                        me lleva a pasar horas frente al ordenador, componiendo piezas únicas.
+                        <br> <br>
+                        Me gusta estar en constante evolución y descubrir nuevas tecnologías. Por ejemplo, me encanta
+                        profundizar en foros como Reddit para aprender sobre las últimas funcionalidades de los
+                        dispositivos móviles o descubrir un nuevo programa para la edición 3d. Siempre busco ampliar mis
+                        conocimientos y estar al día.
+                    </p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/eloylozano" target="_blank"
+                            class="text-decoration-none me-3">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="my-4">
+                        <img src="./img/Career.png" alt="Línea de tiempo sobre mi trayectoria" height="110px">
+                    </div>
+                </div>
+                <div class="col-md-4 text-end foto-container">
+                    <img src="./img/PictureAbout.jpg" alt="Profile" class="rounded-3 shadow flip-horizontal">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-white text-center py-4">
+        <div>
+            <a href="https://www.linkedin.com/in/eloylozano/" target="_blank" class="text-decoration-none me-3">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Eloy Lozano - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
