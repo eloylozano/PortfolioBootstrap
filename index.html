@@ -15,7 +15,7 @@
 </head>
 
 <body data-bs-theme="dark">
-    <!-- <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <header class="text-light">
@@ -42,7 +42,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/about.html">Sobre mí</a>
+                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#habilidades">Habilidades</a>
@@ -255,7 +255,7 @@
         <section class="container py-5" id="experiencia">
             <h2 class="text-center mb-4">Experiencia</h2>
 
-            <div class="card mb-3">
+            <div class="card mb-3 ">
                 <div class="row g-0 align-items-center job">
                     <div class="col-md-9">
                         <div class="card-body">
@@ -372,6 +372,7 @@
                                 tooltipTriggerList.forEach(function (tooltipTriggerEl) {
                                     new bootstrap.Tooltip(tooltipTriggerEl)
                                 })
+
                                 document.getElementById("send-button").addEventListener("click", function () {
                                     // Obtener valores del formulario
                                     const name = document.getElementById("name").value;

@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* background-position: center; */
     color: #fff;
     font-family: 'roboto', 'Helvetica Neue', Arial, Helvetica;
 }
@@ -226,9 +227,33 @@ footer>p {
         margin-left: 0;
     }
 
-    .career-timeline img{
+    .career-timeline img {
         width: 100%;
         height: auto;
+    }
+
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        margin-bottom: 20px;
+    }
+
+    .education-container .card {
+        background-color: rgba(75, 75, 75, 0.4);
+        backdrop-filter: blur(30px);
+        color: #fff;
+    }
+
+    .hover-zoom:hover {
+        transform: scale(1.01);
+    }
+
+    .titulation {
+        width: 100%;
+        background-color: red;
     }
 }
 
@@ -246,7 +271,7 @@ footer>p {
     .slider-box .row.g-0 {
         height: 15rem;
     }
-    
+
     .slider-box img {
         object-fit: contain;
         height: auto;
@@ -267,4 +292,88 @@ footer>p {
 
 .flip-horizontal {
     transform: scaleX(-1);
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.titulation {
+    background-color: rgba(75, 75, 75, 0.4);
+    backdrop-filter: blur(30px);
+    color: #fff;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.01);
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columnas */
+    grid-template-areas:
+        "picture1 picture1 picture2 picture3"
+        "picture1 picture1 picture4 picture4"
+        "picture5 picture6 picture7 picture7";
+    gap: 20px;
+}
+
+.photo-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.photo-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Asignación de las áreas */
+.photo-item.picture1 {
+    grid-area: picture1;
+}
+
+.photo-item.picture2 {
+    grid-area: picture2;
+}
+
+.photo-item.picture3 {
+    grid-area: picture3;
+}
+
+.photo-item.picture4 {
+    grid-area: picture4;
+}
+
+.photo-item.picture5 {
+    grid-area: picture5;
+}
+
+.photo-item.picture6 {
+    grid-area: picture6;
+}
+
+.photo-item.picture7 {
+    grid-area: picture7;
+}
+
+/* Las fotos que se dividen en dos */
+.photo-item.picture6,
+.photo-item.picture7 {
+    height: 100%;
+    /* Ambas imágenes ocuparán el mismo espacio */
 }
