@@ -172,120 +172,6 @@ footer>p {
     margin: 10px 0 0 0;
 }
 
-@media (max-width: 780px) {
-
-    #about {
-        padding: 0px 0px 50px 0px;
-    }
-
-    #about>div {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 50px;
-        text-align: justify;
-    }
-
-    .foto-container {
-
-        width: 90%;
-    }
-
-    .foto-container {
-        height: 95%;
-        padding: 0;
-    }
-
-    .skill {
-        width: max-content;
-    }
-
-    .slider-box .job {
-        padding-bottom: 25px;
-    }
-
-    #proyectosCarousel .card {
-        width: 100%;
-        height: auto;
-    }
-
-    #proyectosCarousel .slider-box {
-        flex-direction: column;
-    }
-
-    #proyectosCarousel .col-md-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    #proyectosCarousel img {
-        object-fit: cover;
-        width: 100%;
-        height: auto;
-    }
-
-    .download {
-        margin-left: 0;
-    }
-
-    .career-timeline img {
-        width: 100%;
-        height: auto;
-    }
-
-    .education-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card img {
-        margin-bottom: 20px;
-    }
-
-    .education-container .card {
-        background-color: rgba(75, 75, 75, 0.4);
-        backdrop-filter: blur(30px);
-        color: #fff;
-    }
-
-    .hover-zoom:hover {
-        transform: scale(1.01);
-    }
-
-    .titulation {
-        width: 100%;
-        background-color: red;
-    }
-}
-
-@media (max-width: 580px) {
-
-    main {
-        padding: 15px;
-    }
-
-    .slider-box .img-fluid {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .slider-box .row.g-0 {
-        height: 15rem;
-    }
-
-    .slider-box img {
-        object-fit: contain;
-        height: auto;
-    }
-
-    .skill {
-        width: max-content;
-    }
-
-    .job {
-        padding-bottom: 25px;
-    }
-}
-
 .description {
     text-align: justify;
 }
@@ -376,4 +262,118 @@ footer>p {
 .photo-item.picture7 {
     height: 100%;
     /* Ambas imágenes ocuparán el mismo espacio */
+}
+
+@media (max-width: 1280px) {
+
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .titulation {
+        width: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+
+    #about {
+        padding: 0px 0px 50px 0px;
+    }
+
+    #about>div>div {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        text-align: justify;
+    }
+
+    .foto-container {
+        height: 95%;
+        padding: 0;
+    }
+
+    .skill {
+        width: max-content;
+    }
+
+    .slider-box .job {
+        padding-bottom: 25px;
+    }
+
+    #proyectosCarousel .card {
+        width: 100%;
+        height: auto;
+    }
+
+    #proyectosCarousel .slider-box {
+        flex-direction: column;
+    }
+
+    #proyectosCarousel .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #proyectosCarousel img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .download {
+        margin-left: 0;
+    }
+
+    .career-timeline img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .card img {
+        margin-bottom: 20px;
+    }
+
+    .education-container .card {
+        background-color: rgba(75, 75, 75, 0.4);
+        backdrop-filter: blur(30px);
+        color: #fff;
+    }
+
+    .hover-zoom:hover {
+        transform: scale(1.01);
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    main {
+        padding: 15px;
+    }
+
+    .slider-box .img-fluid {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .slider-box .row.g-0 {
+        height: 15rem;
+    }
+
+    .slider-box img {
+        object-fit: contain;
+        height: auto;
+    }
+
+    .skill {
+        width: max-content;
+    }
+
+    .job {
+        padding-bottom: 25px;
+    }
 }

@@ -15,21 +15,6 @@
 </head>
 
 <body data-bs-theme="dark">
-    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-center" id="welcomeModalLabel">Bienvenido a mi portfolio</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center">
-                    ¡Bienvenido a mi portfolio! Me alegra que estés aquí.
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <header class="text-light">
         <nav class="navbar navbar-expand-lg shadow-sm">
             <div class="container">
@@ -42,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                            <a class="nav-link" href="/about.html">Sobre mí</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/index.html#habilidades">Habilidades</a>
@@ -69,38 +54,45 @@
 
         <section class="container" id="about">
             <div class="row align-items-center">
-                <div class="col-md-8">
-                    <h1>¿Quién soy?</h1>
-                    <p class="text-muted py-4 description">
-                        Soy un chico de 22 años, apasionado desde pequeño de la tecnología, los ordenadores y los Lego.
-                        Desde pequeño, siempre me ha gustado montar y desmontar cosas, como en los Lego, maquetas o
-                        aparatos tecnológicos, lo cual me ha llevado a descubrir una similitud en la programación, donde
-                        también se trata de crear y modificar bloques para hacer que todo funcione.
-                        <br> <br>
-                        Otra de mis grandes pasiones es la fotografía, una forma de desconexión de la programación,
-                        aunque no se queda lejos de esta, ya que disfruto mucho editando y haciendo fotomontajes. Esto
-                        me lleva a pasar horas frente al ordenador, componiendo piezas únicas.
-                        <br> <br>
-                        Me gusta estar en constante evolución y descubrir nuevas tecnologías. Por ejemplo, me encanta
-                        profundizar en foros como Reddit para aprender sobre las últimas funcionalidades de los
-                        dispositivos móviles o descubrir un nuevo programa para la edición 3d. Siempre busco ampliar mis
-                        conocimientos y estar al día.
-                    </p>
-                    <div>
-                        <a href="https://www.linkedin.com/in/eloylozano" target="_blank"
-                            class="text-decoration-none me-3">
-                            <i class="fab fa-linkedin fa-lg"></i>
-                        </a>
-                        <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
-                            <i class="fab fa-github fa-lg"></i>
-                        </a>
+                <h1>¿Quién soy?</h1>
+                <div class="d-flex justify-content-between gap-5">
+                    <div class="col-md-8">
+                        <p class="text-muted py-4 description">
+                            Soy un chico de 22 años, apasionado desde pequeño de la tecnología, los ordenadores y los
+                            Lego.
+                            Desde pequeño, siempre me ha gustado montar y desmontar cosas, como en los Lego, maquetas o
+                            aparatos tecnológicos, lo cual me ha llevado a descubrir una similitud en la programación,
+                            donde
+                            también se trata de crear y modificar bloques para hacer que todo funcione.
+                            <br> <br>
+                            Otra de mis grandes pasiones es la fotografía, una forma de desconexión de la programación,
+                            aunque no se queda lejos de esta, ya que disfruto mucho editando y haciendo fotomontajes.
+                            Esto
+                            me lleva a pasar horas frente al ordenador, componiendo piezas únicas.
+                            <br> <br>
+                            Me gusta estar en constante evolución y descubrir nuevas tecnologías. Por ejemplo, me
+                            encanta
+                            profundizar en foros como Reddit para aprender sobre las últimas funcionalidades de los
+                            dispositivos móviles o descubrir un nuevo programa para la edición 3d. Siempre busco ampliar
+                            mis
+                            conocimientos y estar al día.
+                        </p>
+                        <div>
+                            <a href="https://www.linkedin.com/in/eloylozano" target="_blank"
+                                class="text-decoration-none me-3">
+                                <i class="fab fa-linkedin fa-lg"></i>
+                            </a>
+                            <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
+                                <i class="fab fa-github fa-lg"></i>
+                            </a>
+                        </div>
+                        <div class="my-4 career-timeline">
+                            <img src="./img/Career.png" alt="Línea de tiempo sobre mi trayectoria" height="110px">
+                        </div>
                     </div>
-                    <div class="my-4 career-timeline">
-                        <img src="./img/Career.png" alt="Línea de tiempo sobre mi trayectoria" height="110px">
+                    <div class="col-md-4 text-end foto-container">
+                        <img src="./img/PictureAbout.jpg" alt="Profile" class="rounded-3 shadow flip-horizontal">
                     </div>
-                </div>
-                <div class="col-md-4 text-end foto-container">
-                    <img src="./img/PictureAbout.jpg" alt="Profile" class="rounded-3 shadow flip-horizontal">
                 </div>
             </div>
         </section>
