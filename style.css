@@ -279,6 +279,18 @@ footer>p {
 
 @media (max-width: 780px) {
 
+
+    #me {
+        padding: 0px 0px 50px 0px;
+    }
+
+    #me>div {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: justify;
+    }
+
     #about {
         padding: 0px 0px 50px 0px;
     }
