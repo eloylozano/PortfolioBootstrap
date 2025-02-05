@@ -74,6 +74,9 @@ h1 {
     background-clip: text;
 }
 
+#photoshopLogo{
+    height: 35px;
+}
 
 .foto-container img {
     width: 100%;
