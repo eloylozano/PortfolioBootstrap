@@ -17,6 +17,10 @@ nav {
     background-color: #161616;
 }
 
+.logo{
+    height: 30px;
+}
+
 .download {
     position: relative;
     overflow: hidden;
@@ -31,12 +35,10 @@ nav {
     cursor: pointer;
 }
 
-.download a {
-    color: #fff;
-}
 
 
 .download:hover::before {
+    color: #fff;
     transform: scaleX(1);
 }
 
@@ -60,11 +62,6 @@ nav {
             rgba(150, 115, 36, 1) 94.3%);
     transition: all 0.475s;
 }
-
-#me {
-    cursor: pointer;
-}
-
 h1 {
     font-size: 3.5em;
     font-weight: 800;
@@ -87,6 +84,10 @@ h1 {
     backdrop-filter: blur(30px);
     color: #fff;
     padding: 20px;
+}
+
+#photshopLogo{
+    height: 35px;
 }
 
 #about {
@@ -182,6 +183,10 @@ footer>p {
 
 .description {
     text-align: justify;
+}
+
+.career-timeline img{
+    height: 110px;
 }
 
 .flip-horizontal {

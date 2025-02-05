@@ -33,8 +33,7 @@
     <header class="text-light">
         <nav class="navbar navbar-expand-lg shadow-sm">
             <div class="container">
-                <a href="index.html"><img src="./img/LogoWhite.png" alt="Logo Eloy Lozano" height="30px"
-                        class="pxl-2"></a>
+                <a href="index.html"><img src="./img/LogoWhite.png" alt="Logo Eloy Lozano" class="pxl-2 logo"></a>
                 <a class="navbar-brand fw-bold ms-3" href="#">Eloy Lozano</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,50 +58,47 @@
                         </li>
                     </ul>
 
-                    <button type="submit" class="btn download" id="button-form">
-                        <a href="./cv/EloyLozano2025.pdf" class="download-content" download>Descargar CV</a>
-                    </button>
+                    <button class="btn download" onclick="window.location.href='./cv/EloyLozano2025.pdf'"><span
+                            class="download-content">Descargar CV</span></button>
+
                 </div>
             </div>
         </nav>
     </header>
     <main>
         <section class="container" id="me">
-            <a href="/about.html">
-                <div class="row align-items-center">
-                    <div class="col-md-8">
-                        <h1>Eloy Lozano</h1>
-                        <p class="text-muted py-4">
-                            Mi curiosidad por la tecnología se complementa con mi amor por la fotografía, lo que me
-                            permite
-                            aportar un enfoque creativo y detallista a mis proyectos.
-                            Cuando no estoy codificando, estoy explorando el mundo a través de mi cámara, capturando
-                            momentos y
-                            paisajes que inspiran mis diseños.
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>Eloy Lozano</h1>
+                    <p class="text-muted py-4">
+                        Mi curiosidad por la tecnología se complementa con mi amor por la fotografía, lo que me
+                        permite
+                        aportar un enfoque creativo y detallista a mis proyectos.
+                        Cuando no estoy codificando, estoy explorando el mundo a través de mi cámara, capturando
+                        momentos y
+                        paisajes que inspiran mis diseños.
+                    </p>
+                    <div class="mb-3">
+                        <p class="mb-1">
+                            <i class="fas fa-map-marker-alt me-2"></i>A Coruña
                         </p>
-                        <div class="mb-3">
-                            <p class="mb-1">
-                                <i class="fas fa-map-marker-alt me-2"></i>A Coruña
-                            </p>
-                            <p class="text-success">
-                                <i class="fas fa-circle me-2"></i>Open to work
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://www.linkedin.com/in/eloylozano" target="_blank"
-                                class="text-decoration-none me-3">
-                                <i class="fab fa-linkedin fa-lg"></i>
-                            </a>
-                            <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
-                                <i class="fab fa-github fa-lg"></i>
-                            </a>
-                        </div>
+                        <p class="text-success">
+                            <i class="fas fa-circle me-2"></i>Open to work
+                        </p>
+                        <a href="https://www.linkedin.com/in/eloylozano" target="_blank"
+                            class="text-decoration-none me-3">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a href="https://github.com/eloylozano" target="_blank" class="text-decoration-none">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
                     </div>
-                    <div class="col-md-4 text-end foto-container">
-                        <img src="./img/fotoPerfil.jpg" alt="Profile" class="rounded-3 shadow">
-                    </div>
+
                 </div>
-            </a>
+                <div class="col-md-4 text-end foto-container">
+                    <img src="./img/fotoPerfil.jpg" alt="Profile" class="rounded-3 shadow">
+                </div>
+            </div>
         </section>
 
 
@@ -141,7 +137,7 @@
                         <p>MySQL</p>
                     </div>
                     <div class="col-md-3 mb-3 skill">
-                        <img src="./img/photoshopLogo.png" alt="Logo Photoshop" height="35px" class="">
+                        <img src="./img/photoshopLogo.png" alt="Logo Photoshop" id="photoshopLogo" class="">
                         <p>Photoshop</p>
                     </div>
                 </div>
