@@ -21,20 +21,6 @@ nav {
     height: 30px;
 }
 
-.download {
-    position: relative;
-    overflow: hidden;
-    height: 2rem;
-    margin-left: 25px;
-    padding: 0 1rem;
-    border-radius: 1.5rem;
-    background: #353227;
-    background-size: 400%;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-}
-
 
 
 .download:hover::before {
@@ -145,36 +131,6 @@ textarea {
     background-color: #161616;
 }
 
-.form-btn {
-    cursor: pointer;
-    font-weight: 700;
-    transition: all 0.2s;
-    padding: 5px 10px 5px 15px;
-    border-radius: 100px;
-    background: #daa032;
-    border: 1px solid transparent;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-}
-
-.form-btn:hover {
-    background: rgba(150, 115, 36, 1);
-}
-
-.form-btn>svg {
-    width: 34px;
-    margin-left: 5px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.form-btn:hover svg {
-    transform: translateX(5px);
-}
-
-.form-btn:active {
-    transform: scale(0.95);
-}
 
 footer>p {
     margin: 10px 0 0 0;
@@ -202,6 +158,11 @@ footer>p {
     justify-content: space-between;
     gap: 20px;
     width: 100%;
+}
+
+#estudios td, thead tr th{
+    backdrop-filter: blur(30px);
+    background-color: rgba(75, 75, 75, 0.4);
 }
 
 .titulation {

@@ -58,14 +58,14 @@
                         </li>
                     </ul>
 
-                    <button class="btn download" onclick="window.location.href='./cv/EloyLozano2025.pdf'"><span
-                            class="download-content">Descargar CV</span></button>
-
+                    <button class="btn btn-secondary download" onclick="descargarCV()">Descargar CV</button>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- Esto es un main -->
     <main>
+        <!-- Sección breve autodescripción -->
         <section class="container" id="me">
             <div class="row align-items-center">
                 <div class="col-md-8">
@@ -101,7 +101,7 @@
             </div>
         </section>
 
-
+        <!-- Sección HardSkills -->
         <section class="py-3 rounded-3" id="habilidades">
             <div class="container">
                 <h2 class="text-center my-3 ">Habilidades y tecnologías</h2>
@@ -144,7 +144,7 @@
             </div>
         </section>
 
-
+        <!-- Sección de mis proyectos -->
         <section class="container py-5" id="proyectos">
             <h2 class="text-center mb-4">Proyectos Personales</h2>
             <div id="proyectosCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -197,8 +197,8 @@
                             <div class="card mx-auto slider-box" style="max-width: 40rem;">
                                 <div class="row g-0 h-100">
                                     <div class="col-12 col-md-6 h-100">
-                                        <img src="./img/lenslegacy.png" class="img-fluid h-100"
-                                            alt="Honda Motorsport" style="object-fit: cover;">
+                                        <img src="./img/lenslegacy.png" class="img-fluid h-100" alt="Honda Motorsport"
+                                            style="object-fit: cover;">
                                     </div>
                                     <div class="col-12 col-md-6 h-100">
                                         <div
@@ -293,7 +293,7 @@
 
 
 
-
+        <!-- Sección de mis trabajos anteriores -->
         <section class="container py-5" id="experiencia">
             <h2 class="text-center mb-4">Experiencia</h2>
 
@@ -365,6 +365,7 @@
         </section>
 
 
+        <!-- Sección para el formulario -->
         <section class="py-5 rounded-3" id="contacto">
             <div class="container">
                 <div class="row align-items-start justify-content-between">
@@ -394,21 +395,19 @@
                                 <textarea id="message" class="form-control" placeholder="Escribe tu mensaje..." required
                                     data-bs-toggle="tooltip" title="Escribe el mensaje que deseas enviar"></textarea>
                             </div>
-                            <button type="button" id="send-button" class="form-btn">
-                                <span>Enviar</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 74 74" height="20"
-                                    width="34">
-                                    <circle stroke-width="5" stroke="white" r="35.5" cy="37" cx="37"></circle>
-                                    <path fill="white" stroke-width="5"
-                                        d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z">
-                                    </path>
-                                </svg>
+                            <button type="button" id="send-button" class="btn btn-secondary">
+                                Enviar
                             </button>
                         </form>
 
 
                         <script>
-
+                            function descargarCV() {
+                                const link = document.createElement('a');
+                                link.href = '/cv/EloyLozano2025.pdf';
+                                link.download = '/cv/EloyLozano2025.pdf';
+                                link.click();
+                            }
                             document.addEventListener('DOMContentLoaded', function () {
                                 var tooltipTriggerList = Array.from(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
                                 tooltipTriggerList.forEach(function (tooltipTriggerEl) {
