@@ -1,3 +1,4 @@
+/* Ajustar fondo */
 body {
     background-image: url(./img/background.jpg);
     background-size: cover;
@@ -8,46 +9,23 @@ body {
     font-family: 'roboto', 'Helvetica Neue', Arial, Helvetica;
 }
 
+/* Enlace */
 a {
     color: #7A7E83;
     text-decoration: none;
 }
 
+/* Fondo nav */
 nav {
     background-color: #161616;
 }
 
+/* Tamaño logo */
 .logo{
     height: 30px;
 }
 
-
-
-.download:hover::before {
-    color: #fff;
-    transform: scaleX(1);
-}
-
-.download-content {
-    position: relative;
-    z-index: 1;
-}
-
-.download::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    width: 100%;
-    height: inherit;
-    border-radius: inherit;
-    background: linear-gradient(82.3deg,
-            rgba(218, 160, 50, 1) 10.8%,
-            rgba(150, 115, 36, 1) 94.3%);
-    transition: all 0.475s;
-}
+/* Ajustar titulo */
 h1 {
     font-size: 3.5em;
     font-weight: 800;
@@ -60,14 +38,17 @@ h1 {
     background-clip: text;
 }
 
+/* Tamaño logo ps */
 #photoshopLogo{
     height: 35px;
 }
 
+/* Imagen */
 .foto-container img {
     width: 100%;
 }
 
+/* Color fondo habilidades */
 #habilidades {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
@@ -75,38 +56,45 @@ h1 {
     padding: 20px;
 }
 
+
 #photshopLogo{
     height: 35px;
 }
 
+/* Padding horizontal */
 #about {
     padding: 100px 0;
 }
 
+/* colores card */
 .card,
 .card a {
     color: whitesmoke;
     background: #161616;
 }
 
+/* Tamaño */
 .card-body {
     height: 100%;
 }
 
-
+/* Tamaño */
 #proyectos .card {
     height: 300px;
 }
 
+/* Enlaces form */
 #contacto a {
     text-decoration: underline;
     transition: color 0.2s ease-in-out;
 }
 
+/* Hover */
 #contacto a:hover {
     color: #ffc251;
 }
 
+/* Fondo y color contacto */
 #contacto {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
@@ -115,43 +103,50 @@ h1 {
     margin-bottom: 75px;
 }
 
-
+/* Tamño imagen formulario */
 #contacto img {
     width: 100%;
     border-radius: 10px;
 }
 
+/* Fondo form-control */
 .form-control {
     background-color: #161616;
 }
 
+/* Tamaño y fondo del text area */
 textarea {
     resize: none;
     height: 300px;
     background-color: #161616;
 }
 
-
+/* Margen footer */
 footer>p {
     margin: 10px 0 0 0;
 }
 
+/* Padding en bio */
 #me {
     padding: 100px 0;
 }
 
+/* Ajustar biografia */
 .description {
     text-align: justify;
 }
 
+/* Tamaño linea temporal estudios */
 .career-timeline img{
     height: 110px;
 }
 
+/* Flip horizontal */
 .flip-horizontal {
     transform: scaleX(-1);
 }
 
+/* Contenedor que no existe de la educación */
 .education-container {
     display: flex;
     flex-wrap: wrap;
@@ -160,11 +155,13 @@ footer>p {
     width: 100%;
 }
 
+/* Colores de la **** tabla */
 #estudios td, thead tr th{
     backdrop-filter: blur(30px);
     background-color: rgba(75, 75, 75, 0.4);
 }
 
+/* Fondo tamaño y animación de los titulos */
 .titulation {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
@@ -177,15 +174,18 @@ footer>p {
     transform: scale(1.01);
 }
 
+/* Animación en el trabajo */
 .job {
     transition: transform 0.3s ease;
 
 }
 
+/* Animacion tamaño */
 .job:hover {
     transform: scale(1.005);
 }
 
+/* Grid galería */
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -250,6 +250,7 @@ footer>p {
     /* Ambas imágenes ocuparán el mismo espacio */
 }
 
+/* Ajuste tamaño tablets */
 @media (max-width: 1280px) {
 
     .education-container {
@@ -263,6 +264,7 @@ footer>p {
     }
 }
 
+/* Ajuste tamaño smpartpones */
 @media (max-width: 780px) {
 
 
@@ -330,7 +332,6 @@ footer>p {
         height: auto;
     }
 
-
     .card img {
         margin-bottom: 20px;
     }
@@ -347,6 +348,7 @@ footer>p {
 
 }
 
+/* Ajuste tamaño mini celulares */
 @media (max-width: 580px) {
 
     main {
