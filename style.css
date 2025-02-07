@@ -326,6 +326,12 @@ footer>p {
 
     .skill {
         width: max-content;
+        margin: 0 auto;
+    }
+    
+    .skill-row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .slider-box .job {
