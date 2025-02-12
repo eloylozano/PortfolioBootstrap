@@ -93,8 +93,7 @@ h1 {
     padding: 100px 0;
 }
 
-.card,
-.card a {
+.card {
     color: whitesmoke;
     background: #161616;
 }
