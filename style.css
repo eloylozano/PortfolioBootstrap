@@ -64,8 +64,8 @@ nav {
 #me {
     cursor: pointer;
     text-align: justify;
-    
-    .bio{
+
+    .bio {
         width: 85%;
     }
 }
@@ -285,7 +285,7 @@ footer>p {
     /* Ambas imágenes ocuparán el mismo espacio */
 }
 
-#contact a:hover{
+#contact a:hover {
     color: #ffc251;
 }
 
@@ -307,6 +307,11 @@ footer>p {
 
     #me {
         padding: 0px 0px 50px 0px;
+
+
+        .bio {
+            width: 100%;
+        }
     }
 
     #me>div {
@@ -336,8 +341,8 @@ footer>p {
         width: max-content;
         margin: 0 auto;
     }
-    
-    .skill-row{
+
+    .skill-row {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
