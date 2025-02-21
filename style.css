@@ -82,7 +82,7 @@ h1 {
     width: 100%;
 }
 
-#habilidades {
+#skills {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
     color: #fff;
@@ -103,20 +103,20 @@ h1 {
 }
 
 
-#proyectos .card {
+#works .card {
     height: 300px;
 }
 
-#contacto a {
+#contact a {
     text-decoration: underline;
     transition: color 0.2s ease-in-out;
 }
 
-#contacto a:hover {
+#contact a:hover {
     color: #ffc251;
 }
 
-#contacto {
+#contact {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
     color: #fff;
@@ -125,7 +125,7 @@ h1 {
 }
 
 
-#contacto img {
+#contact img {
     width: 100%;
     border-radius: 10px;
 }
