@@ -63,6 +63,11 @@ nav {
 
 #me {
     cursor: pointer;
+    text-align: justify;
+    
+    .bio{
+        width: 85%;
+    }
 }
 
 h1 {
