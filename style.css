@@ -280,6 +280,10 @@ footer>p {
     /* Ambas imágenes ocuparán el mismo espacio */
 }
 
+#contact a:hover{
+    color: #ffc251;
+}
+
 @media (max-width: 1280px) {
 
     .education-container {
