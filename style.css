@@ -139,6 +139,14 @@ h1 {
     background-color: #161616;
 }
 
+
+.form-control:focus {
+    box-shadow: 0px 0px 8px rgba(150, 115, 36, 1); 
+    border-color: #daa032; 
+    background-color: #da9f3202;
+}
+
+
 textarea {
     resize: none;
     height: 300px;
@@ -166,6 +174,10 @@ textarea {
     width: 34px;
     margin-left: 5px;
     transition: transform 0.3s ease-in-out;
+}
+
+.send-button{
+    color: #fff;
 }
 
 .form-btn:hover svg {
