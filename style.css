@@ -235,6 +235,7 @@ footer>p {
 .photo-item {
     position: relative;
     overflow: hidden;
+    cursor: zoom-in;
     border-radius: 8px;
 }
 
