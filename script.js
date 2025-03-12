@@ -9,10 +9,4 @@ document.getElementById("send-button").addEventListener("click", function () {
 
     // Abrir el enlace
     window.location.href = mailtoLink;
-
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-B3WCYJB0Q7');
 });
