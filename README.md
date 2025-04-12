@@ -43,5 +43,4 @@ Email: eloylozano.dev@gmail.com
 LinkedIn: linkedin.com/in/eloylozano
 
 📄 License
-This project is licensed under the MIT License.
 
