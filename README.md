@@ -1,4 +1,4 @@
-🧑‍💻 Personal Portfolio - Bootstrap
+# Personal Portfolio - Bootstrap
 This is my personal portfolio website built with HTML, CSS, and Bootstrap. It showcases my projects, skills, and provides an easy way to get in touch.
 
 🚀 Live Demo
