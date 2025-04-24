@@ -87,6 +87,15 @@ h1 {
     width: 100%;
 }
 
+.skill {
+    transition: 0.1s ease-in-out;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    cursor: default;
+}
+
 #skills {
     background-color: rgba(75, 75, 75, 0.4);
     backdrop-filter: blur(30px);
@@ -141,8 +150,8 @@ h1 {
 
 
 .form-control:focus {
-    box-shadow: 0px 0px 8px rgba(150, 115, 36, 1); 
-    border-color: #daa032; 
+    box-shadow: 0px 0px 8px rgba(150, 115, 36, 1);
+    border-color: #daa032;
     background-color: #da9f3202;
 }
 
@@ -176,7 +185,7 @@ textarea {
     transition: transform 0.3s ease-in-out;
 }
 
-.send-button{
+.send-button {
     color: #fff;
 }
 
@@ -377,7 +386,7 @@ footer>p {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
+
 
     #proyectosCarousel img {
         object-fit: cover;
